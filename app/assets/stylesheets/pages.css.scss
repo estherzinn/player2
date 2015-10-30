@@ -3,11 +3,24 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-	padding-top: 70px;
+	padding-top: 50px;
 }
 
 .alert {
 	position: absolute;
 	z-index: 1;
 	width: 200px;
+}
+
+.front-title {
+	margin-top: 100px;
+}
+
+.landing {
+  background: image-url("wallpaper.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
 }
