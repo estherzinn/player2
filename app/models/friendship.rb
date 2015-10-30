@@ -1,4 +1,5 @@
 class Friendship < ActiveRecord::Base
+  include PublicActivity::Model
 
 	belongs_to :user
 	belongs_to :friend, class_name: "User"
@@ -14,4 +15,4 @@ class Friendship < ActiveRecord::Base
 	def cancel_friendship
 		self.destroy
 	end
-end	
+end
