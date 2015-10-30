@@ -14,4 +14,4 @@ class Friendship < ActiveRecord::Base
 	def cancel_friendship
 		self.destroy
 	end
-	
+end	
