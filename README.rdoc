@@ -24,4 +24,4 @@ Unicorn setup details are located in Procfile and Unicorn.rb.
 Player2 uses a sqlite3 database and was deployed using Unicorn. Solely because unicorns are awesome, and
 no unicorns were harmed in the making of this app:
 
-<img src= "http://www.computing.co.uk/IMG/776/321776/digital-unicorn.jpg">
+http://www.computing.co.uk/IMG/776/321776/digital-unicorn.jpg
