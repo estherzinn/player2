@@ -1,6 +1,4 @@
-// Place all the styles related to the pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 
 body {
 	padding-top: 50px;
@@ -24,3 +22,23 @@ body {
   background-size: cover;
   height: 100vh;
 }
+
+.jumbotron {
+ padding: 30px;
+ margin-bottom: 30px;
+ font-size: 21px;
+ font-weight: 200;
+ font-family: 'Raleway', sans-serif;
+ line-height: 2.1428571435;
+ color: inherit;
+ background-color: transparent;
+ }
+
+
+ .jumbotron h1{
+     color: #fff;
+ }
+
+ .jumbotron h3{
+		 color: #fff;
+ }
