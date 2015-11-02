@@ -20,7 +20,7 @@ gem 'gravatarify', '~> 3.0.0'
 gem 'public_activity'
 gem 'auto_html'
 
-gem 'rack-timeout'
+
 gem 'figaro'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
