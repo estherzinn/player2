@@ -1,28 +1,27 @@
-== README
+== Player2: A social network for gamers
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is hosted on heroku: https://player-2.herokuapp.com/
 
-Things you may want to cover:
+Notes about the gems:
 
-* Ruby version
+* twitter-bootstrap-rails was used to create the app's timeline and give it its design.
 
-* System dependencies
+* simple_form, in combination with devise, helped to streamline the process of creating forms and made things much easier.
 
-* Configuration
+* gravatarify is a really neat gem that automatically pulls a user's gravatar picture (if available) to make sign-up more
 
-* Database creation
+* the public activity gem came in handy when automatically tracking the actions of the user and setting it up in a neat little
+sidebar.
 
-* Database initialization
+* auto_html works great to allow users to share embedded videos (youtube, vimeo etc).
 
-* How to run the test suite
+* font awesome came to the rescue once again to display a cute gamepad icon for the front page.
 
-* Services (job queues, cache servers, search engines, etc.)
+DB/Server Stuff:
 
-* Deployment instructions
+Unicorn setup details are located in Procfile and Unicorn.rb.
 
-* ...
+Player2 uses a sqlite3 database and was deployed using Unicorn. Solely because unicorns are awesome, and
+no unicorns were harmed in the making of this app:
 
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+<img src= "http://www.computing.co.uk/IMG/776/321776/digital-unicorn.jpg">
