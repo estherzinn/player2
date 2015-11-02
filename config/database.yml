@@ -20,7 +20,7 @@ test:
 
 production:
   adapter: postgresql
-  database: player2
+  database: player-2
   encoding: utf8
   min_messages: warning
   pool: 5
